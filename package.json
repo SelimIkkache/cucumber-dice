@@ -1,0 +1,23 @@
+{
+  "name": "cucumber-dice",
+  "version": "1.0.0",
+  "description": "Test cucumber with a server that throw a dice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SelimIkkache/cucumber-dice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SelimIkkache/cucumber-dice/issues"
+  },
+  "homepage": "https://github.com/SelimIkkache/cucumber-dice#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cucumber": "^3.0.4"
+  }
+}
