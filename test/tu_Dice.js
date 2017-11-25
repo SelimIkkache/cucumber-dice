@@ -6,10 +6,10 @@ chai.should() // Tells to chai that we'll use should assertions
 describe("Dice", () => {
   describe("constructor", () => {
     it ("can be built only with integer faces greater than 2", () => {
-      (()=> {var myDice = new Dice(1.5)}).should.throw ()
-      (()=> {var myDice = new Dice("a string")}).should.throw ()
-      (()=> {var myDice = new Dice(0)}).should.throw ()
-      (()=> {var myDice = new Dice(-1)}).should.throw ()
+      (()=> {new Dice(1.5)}).should.throw ();
+      (()=> {new Dice("a string")}).should.throw ();
+      (()=> {new Dice(0)}).should.throw ();
+      (()=> {new Dice(-1)}).should.throw ();
     })
   })
 
